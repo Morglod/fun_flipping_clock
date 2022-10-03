@@ -1,0 +1,25 @@
+.clock {
+  position: relative;
+  width: 1050px;
+  height: 450px;
+
+  background: #1a1a1b;
+}
+
+.clock-timebox {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  width: 900px;
+  height: 300px;
+
+  border-radius: 20px;
+  background-color: rgb(10, 10, 10);
+  box-shadow: inset 0px 0px 10px 6px #151516, 0px 0px 3px 2px #151516;
+
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
